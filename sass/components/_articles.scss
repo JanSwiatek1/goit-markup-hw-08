@@ -1,0 +1,36 @@
+.articles {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-weight: 700;
+    }
+    
+    &__list-text {
+         color: $link-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+    &__grafic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F4FA;
+        height: 120px;
+    }
+
+}
