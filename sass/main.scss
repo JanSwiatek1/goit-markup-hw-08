@@ -1,15 +1,15 @@
-@use "./utils/variable" as *;
-@import "./components/page-header";
-// @import "./components/page-main";
+@import "./utils/variable";
+@import "./utils/mixins";
+@import "./utils/globals";
+
+@import "./components/header";
 @import "./components/hero";
 @import "./components/articles";
 @import "./components/services";
 @import "./components/team";
 @import "./components/logo";
 @import "./components/clients";
-@import "./components/page-footer";
-@import "./components/page-formula";
-@import "./components/page-portfolio";
-@import "./components/classes";
-@import "./utils/globals";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/portfolio";
 

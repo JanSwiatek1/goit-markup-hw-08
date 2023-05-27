@@ -1,0 +1,139 @@
+.footer {
+    display: none;
+
+    display: flex;
+    background-color: #2F303A;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+    height: 252px;
+    justify-content: space-between;
+    align-items: center;
+
+    .link{
+        color: $link-color;
+        font-size: 14px;
+        line-height: 2.4;
+
+        
+    }
+
+    &__email__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $button-color;
+        color: #fff;
+        width: 200px;
+        height: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: 0;
+        padding: 0;
+        fill: #fff;
+        gap: 25px;
+        cursor: pointer;
+        margin-left: 12px;
+  
+    }
+
+    &__adress {   
+        display: flex;
+        flex-direction: column;
+
+        .link{
+            font-size: 14px;
+            line-height: 2;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            padding-top: 9px;
+        }
+
+        
+        &-info {
+            font-size: 14px;
+            line-height: 2;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            margin-top: 20px;
+        }
+        
+    }
+}
+
+.container__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    gap: 60px;
+    list-style-type: none;
+    padding-top: 72px;
+    padding: 0;
+    margin-left: 12px;
+
+
+    &-info {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+}
+
+
+
+
+
+.footer__socialmedia {
+     display: flex;
+     justify-content: space-between;
+     padding: 0;
+     list-style-type: none;
+     gap: 10px;
+ 
+
+    &__foto {
+        padding: 12px;
+        fill: #FFFFFF;
+    }
+
+    &__li-part {
+        height: 1px;
+    }
+
+    &__link {
+        display: flex;
+        height: 44px;
+        border-radius: 90%;
+        background-color: rgba(255, 255, 255, 0.1);
+        &:focus,
+        &:hover {
+            border-radius: 100%;
+            cursor: pointer;
+            background-color: $button-color;
+            height: 44px;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+ 
+}
+
+
+
+
+
+
+

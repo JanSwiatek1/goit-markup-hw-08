@@ -9,6 +9,10 @@ p {
     margin: 0;
 }
 
+li{
+    list-style: none;
+}
+
 .blue {
     color: $button-color;
 }
@@ -37,8 +41,18 @@ p {
 
 
 .container {
-    width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+    padding: 0 15px;
+
+    @include tablet{
+        max-width: 768px;
+    }
+
+    @include desktop{
+        max-width: 1200px;
+    }
 }
 
 img{
@@ -101,4 +115,8 @@ figure {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+svg{
+    vertical-align: middle;
 }

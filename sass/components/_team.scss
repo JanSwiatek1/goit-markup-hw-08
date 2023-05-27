@@ -1,4 +1,6 @@
-.pictures__staff {
+.team {
+    display: none;
+
     background-color: $background-color;
 
     &-box {
@@ -8,6 +10,7 @@
         margin: 0;
         padding: 0;
         height: 428px;
+        width: 270px;
     }
 
     &-inf {

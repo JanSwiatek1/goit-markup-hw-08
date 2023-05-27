@@ -6,21 +6,20 @@
     line-height: 31px;
     letter-spacing: 0.03em;
 
-}
-
-.logo-black{
-    color: black;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-}
-.logo-white {
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    &-black{
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
+    &-white {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
 }
