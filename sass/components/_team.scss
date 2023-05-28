@@ -1,6 +1,5 @@
 .team {
-    display: none;
-
+    display: flex;
     background-color: $background-color;
 
     &-box {
@@ -30,6 +29,23 @@
         letter-spacing: 0.03em;
         padding: 5px;
     }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        // margin: 0;
+        // padding: 0;
+
+        @include tablet{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+}
 
 }
 

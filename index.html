@@ -181,10 +181,23 @@
       <section class="section team">
         <div class="container">
           <h2 class="section__headline-h2">Nasz zespół</h2>
-          <ul class="list__main">
+          <ul class="team__list">
             <li>
               <figure class="team-box">
-                <img class="picture" src="images/img-4.jpg" alt="John Doe" />
+                <img
+                  class="picture"
+                  src="images/team/product-designer.jpg"
+                  alt="Mężczyzna w okularach"
+                  srcset="
+                    images/product-designer450.jpg    450w,
+                    images/product-designer450@2x.jpg 900w,
+                    images/product-designer354.jpg    354w,
+                    images/product-designer354@2x.jpg 708w,
+                    images/product-designer270.jpg    270w,
+                    images/product-designer270@2x.jpg 540w
+                  "
+                  sizes="(min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">Product Designer</p>
@@ -231,7 +244,7 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/img-1.jpg" alt="John Doe" />
+                <img src="images/team/" alt="John Doe" />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">Frontend Developer</p>
@@ -278,7 +291,7 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/img-2.jpg" alt="John Doe" />
+                <img src="images/team/" alt="John Doe" />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">Marketing</p>
@@ -325,7 +338,7 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/img-3.jpg" alt="John Doe" />
+                <img src="images/team/" alt="John Doe" />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">UI Designer</p>
