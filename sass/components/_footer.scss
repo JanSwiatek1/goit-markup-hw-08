@@ -1,7 +1,7 @@
 .footer {
     display: none;
 
-    display: flex;
+    // display: flex;
     background-color: #2F303A;
     color: #FFFFFF;
     padding-bottom: 60px;
@@ -76,11 +76,12 @@
     justify-content: space-between;
     align-items: baseline;
     align-content: center;
-    gap: 60px;
+    // gap: 60px;
     list-style-type: none;
     padding-top: 72px;
     padding: 0;
     margin-left: 12px;
+    margin-right: auto;
 
 
     &-info {
