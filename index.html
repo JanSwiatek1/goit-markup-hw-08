@@ -95,52 +95,52 @@
       <section class="articles">
         <div class="container">
           <ul class="articles__list">
-            <li>
+            <li class="articles__list-center">
               <div class="articles__grafic">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="articles__list-middle">LOREM IPSUM</h3>
               <p class="articles__list-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 laboriosam natus cum praesentium amet similique, unde aperiam
                 molestiae blanditiis.
               </p>
             </li>
-            <li>
+            <li class="articles__list-center">
               <div class="articles__grafic">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="articles__list-middle">LOREM IPSUM</h3>
               <p class="articles__list-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 laboriosam natus cum praesentium amet similique, unde aperiam
                 molestiae blanditiis.
               </p>
             </li>
-            <li>
+            <li class="articles__list-center">
               <div class="articles__grafic">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="articles__list-middle">LOREM IPSUM</h3>
               <p class="articles__list-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 laboriosam natus cum praesentium amet similique, unde aperiam
                 molestiae blanditiis.
               </p>
             </li>
-            <li>
+            <li class="articles__list-center">
               <div class="articles__grafic">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="articles__list-middle">LOREM IPSUM</h3>
               <p class="articles__list-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 laboriosam natus cum praesentium amet similique, unde aperiam
@@ -189,12 +189,12 @@
                   src="images/team/product-designer.jpg"
                   alt="Mężczyzna w okularach"
                   srcset="
-                    images/product-designer450.jpg    450w,
-                    images/product-designer450@2x.jpg 900w,
-                    images/product-designer354.jpg    354w,
-                    images/product-designer354@2x.jpg 708w,
-                    images/product-designer270.jpg    270w,
-                    images/product-designer270@2x.jpg 540w
+                    images/team/product-designer450.jpg    450w,
+                    images/team/product-designer450_2x.jpg 900w,
+                    images/team/product-designer354.jpg    354w,
+                    images/team/product-designer354_2x.jpg 708w,
+                    images/team/product-designer270.jpg    270w,
+                    images/team/product-designer270-2x.jpg 540w
                   "
                   sizes="(min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
                 />
@@ -244,7 +244,19 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/team/" alt="John Doe" />
+                <img
+                  src="images/team/frontend-developer.jpg"
+                  alt="John Doe"
+                  srcset="
+                    images/team/frontend-developer450.jpg    450w,
+                    images/team/frontend-developer450_2x.jpg 900w,
+                    images/team/frontend-developer354.jpg    354w,
+                    images/team/frontend-developer354_2x.jpg 708w,
+                    images/team/frontend-developer270.jpg    270w,
+                    images/team/frontend-developer270-2x.jpg 540w
+                  "
+                  sizes="(min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">Frontend Developer</p>
@@ -291,7 +303,19 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/team/" alt="John Doe" />
+                <img
+                  src="images/team/marketing.jpg"
+                  alt="John Doe"
+                  srcset="
+                    images/team/marketing450.jpg    450w,
+                    images/team/marketing450_2x.jpg 900w,
+                    images/team/marketing354.jpg    354w,
+                    images/team/marketing354_2x.jpg 708w,
+                    images/team/marketing270.jpg    270w,
+                    images/team/marketing270-2x.jpg 540w
+                  "
+                  sizes="(min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">Marketing</p>
@@ -338,7 +362,21 @@
             </li>
             <li>
               <figure class="team-box">
-                <img src="images/team/" alt="John Doe" />
+                <img
+                  src="images/team/ui-designer.jpg"
+                  alt="John Doe"
+                  src="images/team/marketing.jpg"
+                  alt="John Doe"
+                  srcset="
+                    images/team/ui-designer450.jpg    450w,
+                    images/team/ui-designer450_2x.jpg 900w,
+                    images/team/ui-designer354.jpg    354w,
+                    images/team/ui-designer354_2x.jpg 708w,
+                    images/team/ui-designer270.jpg    270w,
+                    images/team/ui-designer270-2x.jpg 540w
+                  "
+                  sizes="(min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                />
                 <figcaption class="team-inf">
                   <p class="team-name">John Doe</p>
                   <p class="gray">UI Designer</p>
@@ -556,16 +594,16 @@
         </ul>
         <ul class="mobile__socials">
           <li class="mobile__socials-item">
-            <a href="" class="mobile__socials-link">Instagram</a>
+            <a href="" class="mobile__socials-link">Instagram </a>
           </li>
           <li class="mobile__socials-item">
-            <a href="" class="mobile__socials-link">Twitter</a>
+            <a href="" class="mobile__socials-link">Twitter </a>
           </li>
           <li class="mobile__socials-item">
             <a href="" class="mobile__socials-link">Facebook</a>
           </li>
           <li class="mobile__socials-item">
-            <a href="" class="mobile__socials-link">Linkedin</a>
+            <a href="" class="mobile__socials-linkedin">Linkedin</a>
           </li>
         </ul>
       </div>

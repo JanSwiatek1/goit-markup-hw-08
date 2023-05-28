@@ -1,17 +1,48 @@
 .articles {
-    display: none;
     padding-top: 94px;
     padding-bottom: 94px;
 
 
     &__list {
         display: flex;
+        flex-direction: column;
         list-style-type: none;
         border-radius: 4px;
         justify-content: center;
         align-items: center;
         gap: 30px;
         font-weight: 700;
+
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+
+        &-middle{
+            display: flex;
+            justify-content: center;
+
+            // @include tablet{
+
+            //     justify-content: flex-start;
+            // }
+            // @include desktop{
+            //     justify-content: flex-start;
+            // }
+        }
+
+        // &-center{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center
+        // }
     }
     
     &__list-text {
@@ -32,6 +63,11 @@
         justify-content: center;
         background-color: #F5F4FA;
         height: 120px;
+        // width: auto;
+
+        @include tablet{
+            // width: 354px;
+        }
     }
 
 }

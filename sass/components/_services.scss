@@ -1,5 +1,4 @@
 .section{
-    display: none;
 
    &__headline-h2 {
         text-align: center;
@@ -17,12 +16,18 @@
 
     &-pictures {
         display: flex;
+        flex-direction: column;
         list-style-type: none;
         border-radius: 4px;
         justify-content: space-between;
         align-items: center;
         margin: 0;
         padding: 0;
+        gap: 30px;
+
+        @include desktop{
+            flex-direction: row;
+        }
     }
 
 }
@@ -37,7 +42,7 @@
 
     &>.text__on-picture {
         position: absolute;
-        bottom: 4px;
+        bottom: 1px;
         margin: 0;
         width: 370px;
         height: 70px;

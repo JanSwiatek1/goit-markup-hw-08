@@ -1,12 +1,13 @@
 
 .clients{
-    display: none;
     &__list {
         display: flex;
+        flex-wrap: wrap;
         list-style-type: none;
-        justify-content: space-between;
         align-items: center;
         padding: 0;
+        gap: 30px;
+        justify-content: center;
         fill: $svg-color;
 
         &-brand {
