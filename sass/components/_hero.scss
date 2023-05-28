@@ -1,15 +1,20 @@
 .hero {
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
-    // display: flex;
+            rgba(47, 48, 58, 0.4)), url("../images/backgr/backgroundMobile_1x.jpg");
+    display: flex;
     height: 600px;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: auto;
+    margin-top: auto;
     background-color: #2F303A;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    padding: 118px 0;
+
+    @include desktop{
+        padding: 200px 0;
+    }
 
     &_content {
         display: flex;
@@ -18,15 +23,25 @@
     }
 
     &_h1 {
+        font-size: 26px;
+
         color: #FFFFFF;
         align-items: center;
         line-height: 2;
         font-weight: 900;
-        font-size: 44px;
+        
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         line-height: 60px;
+        max-width: 365px;
+
+        @include desktop{
+            font-size: 44px;
+            max-width: 696px;
+        }
+
+
     }
     &__button {
         width: 200px;
