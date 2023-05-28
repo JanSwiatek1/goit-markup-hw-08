@@ -85,6 +85,7 @@
     justify-content: flex-start;
     gap: 10px;
     padding-bottom: 48px;
+    flex-wrap: wrap;
     
     &-link{
         font-weight: 500;
@@ -95,7 +96,8 @@
         color: $button-color;
         border-right: 2px solid rgba(33, 33, 33, 0.2); 
         transform: rotate(90deg);
-        padding-right: 5px;
+        padding-right: 10px;
+
     }
     &-linkedin{
         @extend .mobile__socials-link;
