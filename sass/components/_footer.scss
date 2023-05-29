@@ -23,6 +23,7 @@
         align-items: center;
         margin-top: 20px;
         gap: 20px;
+        width: auto;
 
         @include desktop{
             flex-direction: row;
@@ -44,7 +45,11 @@
         fill: #fff;
         gap: 25px;
         cursor: pointer;
-        margin-left: 12px;
+
+        @include desktop{
+            margin-left: 12px;
+        }
+        
   
     }
 
