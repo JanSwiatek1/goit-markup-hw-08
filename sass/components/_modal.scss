@@ -116,10 +116,10 @@
     padding-left: 42px;
 
     @include tablet{
-        width: 370px;
+        max-width: 370px;
     }
     @include desktop{
-        width: 448px;
+        max-width: 448px;
     }
 
     &:focus-within,
@@ -206,8 +206,11 @@
  }
 .svg__box {
     position: absolute;
-    left: 5%;
+    left: 8%;
     top: 55%;
+    @include tablet{
+        left: 5%;
+    }
 }
 
 
